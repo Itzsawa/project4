@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Page</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: rgb(255, 255, 255);
+            }
+    
+            #part1 {
+                position: relative;
+                text-align: center;
+                padding: 50px 0;
+                background-color: rgb(234, 246, 246);
+                margin-bottom: 0px;
+            }
+    
+            .mountain {
+                width: 400px;
+                max-width: 100%;
+                margin-bottom: 0px;
+            }
+    
+            .cloud1, .cloud2 {
+                position: absolute;
+                width: 130px;
+            }
+    
+            .cloud1 {
+                left: 20%;
+                top: 30px;
+            }
+    
+            .cloud2 {
+                left: 70%;
+                margin-top: 20px;
+                width: 110px;
+            }
+    
+            #part2 {
+                text-align: center;
+                color: rgb(152, 203, 203);
+                margin: 20px 0;
+            }
+    
+            .yaniv {
+                border-radius: 120px;
+                width: 140px;
+                margin-top: 30px;
+            }
+    
+            .part3 {
+                width: 80%;
+                max-width: 600px;
+                margin: 20px auto;
+                display: flex;
+                align-items: center;
+                text-align: left;
+                color: rgb(152, 203, 203);
+            }
+    
+            .pencil, .class {
+                width: 15%;
+                margin-right: 20px;
+                border-radius: 70px;
+            }
+    
+            .paragraph {
+                color: rgb(121, 135, 137);
+            }
+    
+            footer {
+                background-color: rgb(234, 246, 246);
+                text-align: center;
+                padding: 10px 0;
+            }
+    
+            /* Media Queries */
+            @media screen and (max-width: 768px) {
+                .part3 {
+                    flex-direction: column;
+                    align-items: center;
+                }
+    
+                .pencil, .class {
+                    width: 30%;
+                    margin: 0 auto 10px;
+
+                }
+    
+                .cloud1, .cloud2 {
+                    width: 60%;
+                    position: static;
+                    margin: 0 auto;
+                }
+    
+                .mountain {
+                    width: 80%;
+                    margin-bottom: 0px
+                }
+            }
+    
+            @media screen and (max-width: 480px) {
+                body {
+                    background-color: red;
+                }
+    
+                .yaniv {
+                    width: 100px;
+                }
+    
+                .cloud1, .cloud2 {
+                    width: 80%;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="part1" style="color: rgb(0, 0, 0);">
+            <img class="cloud2" src="images/cloud.png" alt="">
+            <h1 class="iam">I'm Yaniu</h1>
+            <h2>a lifelong learner</h2>
+            <img class="cloud1" src="images/cloud.png" alt="">
+            <img class="mountain" src="images/mountain.png" alt="">
+        </div>
+    
+        <div id="part2">
+            <img class="yaniv" src="images/yaniv-pic.jpeg" alt="">
+            <h3 style="margin-top: 20px;">Hello.</h3>
+            <p style="margin-top: 30px;">I am a lover, not a fighter.</p>
+            <p style="margin-top: 30px;">.......</p>
+            <h3 style="margin-top: 20px;">My Skills.</h3>
+        </div>
+    
+        <div class="part3">
+            <img src="images/001-pencil.png" alt="" class="pencil">
+            <div>
+                <h3 class="head">Writing and Speech</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui explicabo facilis, dolores adipisci molestias illo.</p>
+            </div>
+        </div>
+    
+        <div class="part3">
+            <img src="images/002-class.png" alt="" class="class">
+            <div>
+                <h3 class="head">Teaching</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui explicabo facilis, dolores adipisci molestias illo.</p>
+            </div>
+        </div>
+    
+        <div class="part3">
+            <img src="images/003-subject.png" alt="" class="pencil">
+            <div>
+                <h3 class="head">Translation</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui explicabo facilis, dolores adipisci molestias illo.</p>
+            </div>
+        </div>
+    
+        <div id="part2">
+            <p style="margin-top: 0px;">.......</p>
+            <h3 style="margin-top: 20px;">Get in Touch</h3>
+            <p style="margin-top: 30px;">Happy To Talk</p>
+            <h3 style="margin-top: 20px;">CONTACT ME</h3>
+        </div>
+    
+        <footer>
+            <p style="color: rgb(234, 246, 246);">hehee</p>
+            <p style="color: rgb(234, 246, 246);">hehee</p>
+        </footer>
+    </body>
+    </html>
+    
